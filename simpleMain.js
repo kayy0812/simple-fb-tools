@@ -3,8 +3,10 @@ const imgur = require('imgur-node-api');
 const setupFB = {
     setup: function() {
         console.clear();
-        const accessToken = 'EAAAAZAw4FxQIBAHLyOAq3WPAPLCtlUHkkioyhx6NCyrR4H7yaKapZBaxgu3zW49Y5KBnJI4V1PwYdUgZCv2utzPZBxiEb3cSj2h3gJj0midHCCaV54n4Csng5sumf2rj7M8Y8KnBMBZACyp3cZAuBkXjwYB7ftrx0w4hpiTg8MKVvUCJqrxrQm';
+        // Put your token
+        const accessToken = '';
         const imgurId = '7a8a9233756ad43';
+
         // Setup data
         FB.extend({
             appId: '356906319231665',
