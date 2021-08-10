@@ -1,0 +1,28 @@
+{
+  "name": "simple-node-tools",
+  "version": "1.0.0",
+  "description": "Simple script for facebook",
+  "main": "index.js",
+  "scripts": {
+    "update": "npm update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayy0812/simpleNodeTools.git"
+  },
+  "keywords": [
+    "tools"
+  ],
+  "author": "kayy0812",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayy0812/simpleNodeTools/issues"
+  },
+  "homepage": "https://github.com/kayy0812/simpleNodeTools#readme",
+  "dependencies": {
+    "fb": "^2.0.0",
+    "fs": "0.0.1-security",
+    "imgur-node-api": "^0.1.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
