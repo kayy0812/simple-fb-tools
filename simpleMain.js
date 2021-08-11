@@ -8,10 +8,10 @@ const setupFB = {
         const imgurId = '7a8a9233756ad43';
 
         // Setup data
-        FB.extend({
-            appId: '356906319231665',
-            appSecret: '3d1f904895e92e5c9da717d7daf5a935'
-        });
+        // FB.extend({
+        //     appId: '',
+        //     appSecret: ''
+        // });
         
         FB.setAccessToken(accessToken);
         imgur.setClientID(imgurId);
